@@ -9,6 +9,11 @@ Use this repository's issue templates for:
 - Broken links
 - Ideas for new lessons or prompts
 
+Before opening an issue, check the [Beginner FAQ](docs/faq.md),
+[Quick Reference](docs/quick-reference.md), and
+[Troubleshooting guide](docs/troubleshooting.md). They cover the most common
+questions and recovery steps.
+
 [Open a guide issue](https://github.com/cporter202/vibe-coding-with-base44/issues/new/choose).
 
 ## Help with Base44

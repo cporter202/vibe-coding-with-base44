@@ -2,6 +2,9 @@
 
 Copy this file into your own notes or GitHub issue and check each item as you complete it.
 
+Quick tools: [one-page reference](quick-reference.md) ·
+[starter kits](../starter-kits/README.md) · [glossary](glossary.md)
+
 ## Plan
 
 - [ ] I can name one primary user
@@ -52,5 +55,12 @@ Copy this file into your own notes or GitHub issue and check each item as you co
 - [ ] I ranked improvements by user impact
 - [ ] I avoided adding features that do not improve the main job
 - [ ] I know the one metric that signals useful completion
+- [ ] I recorded one lesson that would help another beginner
+
+## Share
+
+- [ ] I removed personal data, secrets, admin URLs, and confidential screenshots
+- [ ] I can describe the user, problem, and outcome in one sentence
+- [ ] I shared the result in the [project showcase](https://github.com/cporter202/vibe-coding-with-base44/issues/new?template=showcase.yml), if appropriate
 
 [← Course map](README.md) · [Start Lesson 1 →](00-start-here.md)

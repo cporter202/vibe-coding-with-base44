@@ -31,9 +31,13 @@ You need:
 
 ## Optional and reference lessons
 
+- [Quick Reference](quick-reference.md): the workflow, modes, prompt, tests, and launch gate on one page
+- [Starter Kits](../starter-kits/README.md): three complete build briefs with data models and tests
 - [Developer Path](07-developer-path.md): GitHub, local development, SDK, and CLI
 - [Prompt Library](../prompts/README.md): copy-ready prompts for common jobs
 - [Troubleshooting](troubleshooting.md): symptom-based fixes
+- [Plain-English Glossary](glossary.md): Base44 and app-building terms without jargon
+- [Beginner FAQ](faq.md): concise answers with current official sources
 - [Official Resources](resources.md): authoritative Base44 links
 - [Progress Checklist](course-checklist.md): a copyable completion tracker
 
@@ -50,4 +54,5 @@ You need:
 
 Use the [Troubleshooting guide](troubleshooting.md). If the issue is account-specific, billing-related, or private, use [Base44 Support](https://docs.base44.com/Community-and-support/Contacting-support) rather than posting secrets publicly.
 
-[← Repository home](../README.md) · [Begin Lesson 1 →](00-start-here.md)
+[← Repository home](../README.md) · [Begin Lesson 1 →](00-start-here.md) ·
+[Choose a starter kit →](../starter-kits/README.md)

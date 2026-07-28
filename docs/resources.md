@@ -2,6 +2,10 @@
 
 Use official documentation for current UI labels, availability, limits, and plan requirements. This repository adds a learning path; it does not replace product documentation.
 
+This index was reviewed on **July 27, 2026**. Start with the repository's
+[Quick Reference](quick-reference.md) when you need the practical answer, then
+use the links below for changing platform details.
+
 ## Start and prompt
 
 - [Documentation home](https://docs.base44.com/)
@@ -36,6 +40,7 @@ Use official documentation for current UI labels, availability, limits, and plan
 - [Workflows](https://docs.base44.com/Building-your-app/Creating-workflows)
 - [Automations](https://docs.base44.com/Building-your-app/Creating-automations)
 - [Sending email](https://docs.base44.com/documentation/building-your-app/sending-emails)
+- [Base44 Payments](https://docs.base44.com/Setting-up-your-app/setting-up-wix-payments)
 
 ## Test, measure, and launch
 
@@ -45,6 +50,9 @@ Use official documentation for current UI labels, availability, limits, and plan
 - [Analytics](https://docs.base44.com/documentation/performance-and-seo/app-analytics)
 - [Performance](https://docs.base44.com/Performance-and-SEO/App-performance)
 - [SEO and search visibility](https://docs.base44.com/Performance-and-SEO/SEO-and-search-visibility)
+- [Mobile experience](https://docs.base44.com/Building-your-app/Mobile-experience)
+- [Submitting to app stores](https://docs.base44.com/documentation/building-your-app/uploading-to-app-stores)
+- [Custom domains](https://docs.base44.com/Setting-up-your-app/Setting-up-your-custom-domain)
 
 ## Developer path
 

@@ -1,0 +1,60 @@
+name: Show what you built
+description: Share a Base44 app you created with help from this guide.
+title: "[Showcase]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Built something useful? Share the outcome and help the next beginner see what is possible. Never include passwords, API keys, private client data, or private admin URLs.
+
+  - type: input
+    id: name
+    attributes:
+      label: App name
+      placeholder: Acme Lead Tracker
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: Name the user, their problem, and the main result.
+    validations:
+      required: true
+
+  - type: input
+    id: public_url
+    attributes:
+      label: Public URL (optional)
+      description: Share only a URL intended for public visitors. Never share a private or administrative link.
+      placeholder: https://example.base44.app
+
+  - type: textarea
+    id: guide_help
+    attributes:
+      label: Which part of the guide helped most?
+      description: Mention the lesson, prompt, starter kit, or checklist you used.
+    validations:
+      required: true
+
+  - type: textarea
+    id: lesson
+    attributes:
+      label: What did you learn?
+      description: Share one decision, mistake, or test that would help another beginner.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and permission check
+      options:
+        - label: I have permission to share this app and its screenshots publicly.
+          required: true
+        - label: I removed secrets, personal data, private URLs, and confidential client information.
+          required: true
+        - label: This is a learning showcase, not a request for private Base44 account support.
+          required: true

@@ -7,6 +7,8 @@ Contributions that make this guide more accurate, beginner-friendly, and useful 
 - Correct a stale UI label, limit, or plan requirement with an official source
 - Add a reproducible troubleshooting case
 - Improve a prompt by adding scope, permissions, edge cases, or tests
+- Add or improve a starter kit with a version-one boundary, permission matrix,
+  build order, and cross-user test
 - Fix unclear instructions, broken links, or accessibility issues
 - Add a small build-along that teaches a distinct pattern
 

@@ -25,12 +25,14 @@ body:
       label: Area
       options:
         - Getting started
+        - Starter kits
         - Prompting
         - Data and security
         - Integrations
         - Testing and debugging
         - Launching
         - Developer path
+        - FAQ or glossary
         - Repository experience
     validations:
       required: true
