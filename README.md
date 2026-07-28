@@ -1,15 +1,19 @@
-# Vibe Coding with Base44
+<h1 align="center">Vibe Coding with Base44</h1>
 
-![Vibe Coding with Base44 — From idea to app, no coding experience required](assets/vibe-coding-with-base44-hero.png)
+<p align="center">
+  <img src="assets/vibe-coding-with-base44-hero.png" width="100%" alt="Vibe Coding with Base44 — From idea to app, no coding experience required">
+</p>
 
-**The practical, zero-to-launch Base44 course I wish existed when I started.** Learn by building a real app—not by reading a feature list.
+<p align="center"><strong>The practical, zero-to-launch Base44 course I wish existed when I started.</strong><br>Learn by building a real app—not by reading a feature list.</p>
 
 > **Affiliate disclosure:** The Base44 links marked “Start free” are affiliate links. If you create or upgrade an account through one, I may earn a commission at no extra cost to you. The guide is independently written, and you can always visit [Base44 directly](https://base44.com/). [Full disclosure](AFFILIATE-DISCLOSURE.md).
 
-[![Level: Beginner](https://img.shields.io/badge/LEVEL-BEGINNER-7C5CFC?style=for-the-badge)](docs/00-start-here.md)
-[![Start: Free](https://img.shields.io/badge/START-FREE-00BFA6?style=for-the-badge)](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base)
-[![Docs Quality](https://img.shields.io/github/actions/workflow/status/cporter202/vibe-coding-with-base44/docs-quality.yml?branch=main&style=for-the-badge&label=DOCS)](https://github.com/cporter202/vibe-coding-with-base44/actions/workflows/docs-quality.yml)
-[![License: MIT](https://img.shields.io/badge/LICENSE-MIT-1F6FEB?style=for-the-badge)](LICENSE)
+<p align="center">
+  <a href="docs/00-start-here.md"><img src="https://img.shields.io/badge/LEVEL-BEGINNER-7C5CFC?style=for-the-badge" alt="Level: Beginner"></a>
+  <a href="https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&amp;trafcat=base"><img src="https://img.shields.io/badge/START-FREE-00BFA6?style=for-the-badge" alt="Start free"></a>
+  <a href="https://github.com/cporter202/vibe-coding-with-base44/actions/workflows/docs-quality.yml"><img src="https://img.shields.io/github/actions/workflow/status/cporter202/vibe-coding-with-base44/docs-quality.yml?branch=main&amp;style=for-the-badge&amp;label=DOCS" alt="Documentation quality status"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-1F6FEB?style=for-the-badge" alt="License: MIT"></a>
+</p>
 
 ## Start in 60 seconds
 
@@ -19,9 +23,10 @@
 4. Follow the [lead-tracker build-along](docs/01-build-your-first-app.md).
 5. Use the [launch checklist](docs/06-launch-checklist.md) before sharing your app.
 
-**No code, database experience, or technical vocabulary required.**
-
-[![Start building free with Base44](https://img.shields.io/badge/START_BUILDING_WITH_BASE44-→-FF6B6B?style=for-the-badge)](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base)
+<p align="center">
+  <strong>No code, database experience, or technical vocabulary required.</strong><br><br>
+  <a href="https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&amp;trafcat=base"><img src="https://img.shields.io/badge/START_BUILDING_WITH_BASE44-→-FF6B6B?style=for-the-badge" alt="Start building free with Base44"></a>
+</p>
 
 ## Choose your path
 
@@ -32,7 +37,7 @@
 | Adding advanced features | [Security](docs/03-data-auth-security.md) → [Integrations](docs/04-integrations-workflows.md) → [Developer Path](docs/07-developer-path.md)                                                                                                              | 60–90 min |
 | Fixing one problem       | Go directly to [Troubleshooting](docs/troubleshooting.md) or the [Prompt Library](prompts/README.md)                                                                                                                                                     |  5–15 min |
 
-[View the complete course map →](docs/README.md)
+<p align="center"><a href="docs/README.md"><strong>View the complete course map →</strong></a></p>
 
 ## What you will build
 
@@ -132,8 +137,8 @@ This is an independent community project—not official Base44 documentation and
 
 ---
 
-**Ready to turn your idea into something real?**
-
-[![Start free with Base44](https://img.shields.io/badge/START_FREE_WITH_BASE44-→-FF6B6B?style=for-the-badge)](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base)
-
-Then open [Start Here](docs/00-start-here.md) and build the smallest useful version first.
+<p align="center">
+  <strong>Ready to turn your idea into something real?</strong><br><br>
+  <a href="https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&amp;trafcat=base"><img src="https://img.shields.io/badge/START_FREE_WITH_BASE44-→-FF6B6B?style=for-the-badge" alt="Start free with Base44"></a><br><br>
+  Then open <a href="docs/00-start-here.md">Start Here</a> and build the smallest useful version first.
+</p>
