@@ -1,5 +1,11 @@
 # Start here: your first 15 minutes
 
+> **Lesson 1 of 7 · 15 minutes · Beginner**
+>
+> **Outcome:** a focused version-one plan you can confidently send to Base44.
+
+[← Course map](README.md) · [Next: Build your first app →](01-build-your-first-app.md)
+
 This chapter gets you from “I have an idea” to a sensible first build without wasting credits on an overstuffed prompt.
 
 > **Affiliate disclosure:** The “start Base44” link below is an affiliate link. I may earn a commission if you purchase through it, at no extra cost to you.
@@ -136,3 +142,7 @@ Done means:
 Follow [Build your first app](01-build-your-first-app.md) for a complete project, or jump to the [Prompt playbook](02-prompt-playbook.md) if you already have an app.
 
 Official references: [starting from your first prompt](https://docs.base44.com/Getting-Started/starting-from-your-first-prompt), [AI chat modes](https://docs.base44.com/Building-your-app/AI-chat-modes), and [writing effective prompts](https://docs.base44.com/Getting-Started/Prompt-guide).
+
+---
+
+[← Course map](README.md) · [Next: Build your first app →](01-build-your-first-app.md)

@@ -1,5 +1,11 @@
 # Base44 prompt library
 
+> **Reference library · 20+ copy-ready prompts**
+>
+> Replace every bracketed value, read the full prompt, and send only what matches your app.
+
+[← Course map](../docs/README.md) · [Learn the prompt method](../docs/02-prompt-playbook.md) · [Troubleshooting](../docs/troubleshooting.md)
+
 Replace every `[BRACKETED VALUE]`. Read the prompt before sending it; a copied prompt is only useful when it matches your app.
 
 ## Plan a minimum viable app
@@ -243,3 +249,7 @@ ranked not-now list and explain which risks the smaller scope removes.
 ```
 
 Return to the [prompt playbook](../docs/02-prompt-playbook.md) to learn when and why to use each pattern.
+
+---
+
+[← Course map](../docs/README.md) · [Prompt Playbook](../docs/02-prompt-playbook.md) · [Launch Checklist](../docs/06-launch-checklist.md)

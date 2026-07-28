@@ -1,5 +1,11 @@
 # Integrations, functions, and workflows
 
+> **Lesson 5 of 7 · 20 minutes · Intermediate**
+>
+> **Outcome:** a safe decision path for email, OAuth connectors, APIs, automations, and payments.
+
+[← Data & Security](03-data-auth-security.md) · [Course map](README.md) · [Next: Testing →](05-testing-debugging.md)
+
 An integration makes your app communicate with another service. A workflow coordinates steps. An automation runs work on a trigger or schedule. A backend function gives you custom server-side logic.
 
 Start with the simplest option that meets the need.
@@ -119,3 +125,7 @@ Never grant paid access only because a visitor landed on a success page. Confirm
 - [ ] Provider-side results match the Base44 record
 
 Official references: [using integrations](https://docs.base44.com/Integrations/Using-integrations), [third-party API choices](https://docs.base44.com/developers/references/sdk/getting-started/third-party-apis), [backend functions](https://docs.base44.com/developers/backend/resources/backend-functions/overview), and [workflows](https://docs.base44.com/Building-your-app/Creating-workflows).
+
+---
+
+[← Data & Security](03-data-auth-security.md) · [Course map](README.md) · [Next: Testing →](05-testing-debugging.md)

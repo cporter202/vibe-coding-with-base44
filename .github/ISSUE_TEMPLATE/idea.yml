@@ -1,0 +1,44 @@
+name: Guide improvement
+description: Suggest a lesson, prompt, example, or usability improvement.
+title: "[Idea]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: beginner_problem
+    attributes:
+      label: What beginner problem would this solve?
+      description: Describe the confusion, missing step, or desired outcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Proposed improvement
+      description: Explain the lesson, prompt, example, or structural change you recommend.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Getting started
+        - Prompting
+        - Data and security
+        - Integrations
+        - Testing and debugging
+        - Launching
+        - Developer path
+        - Repository experience
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: source
+    attributes:
+      label: Product claims
+      options:
+        - label: I will include an official source for any time-sensitive Base44 claim.
+          required: true

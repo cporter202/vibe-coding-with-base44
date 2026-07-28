@@ -1,5 +1,11 @@
 # Developer path: code, GitHub, SDK, and CLI
 
+> **Bonus lesson · 20 minutes · Intermediate**
+>
+> **Outcome:** a clear map of editor GitHub sync versus the Base44 developer backend platform.
+
+[← Launch](06-launch-checklist.md) · [Course map](README.md) · [Prompt Library →](../prompts/README.md)
+
 You do not need this chapter to build your first app. Use it when the visual builder no longer gives you enough control, or when you want version control and a local workflow.
 
 ## First understand the two paths
@@ -125,3 +131,7 @@ dist/
 If a secret enters Git history, remove it from the code and rotate/revoke it. Merely deleting the latest line does not invalidate the old secret.
 
 Official references: [GitHub integration](https://docs.base44.com/developers/app-code/local-development/github), [developer platform](https://docs.base44.com/developers/home), [CLI overview](https://docs.base44.com/developers/references/cli/get-started/overview), [SDK overview](https://docs.base44.com/developers/references/sdk/getting-started/overview), and [backend functions](https://docs.base44.com/developers/backend/resources/backend-functions/overview).
+
+---
+
+[← Launch](06-launch-checklist.md) · [Course map](README.md) · [Prompt Library →](../prompts/README.md)

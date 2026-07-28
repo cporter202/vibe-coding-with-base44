@@ -1,0 +1,52 @@
+name: Documentation correction
+description: Report inaccurate, stale, broken, or confusing guide content.
+title: "[Docs]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep the guide accurate. Never include passwords, API keys, or private account information.
+
+  - type: input
+    id: location
+    attributes:
+      label: Page and section
+      description: Which file and heading need attention?
+      placeholder: docs/03-data-auth-security.md — Permission prompt
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong or unclear?
+      description: Describe the current problem and what a beginner might misunderstand.
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: What should the guide say instead?
+
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: For product claims, link to current official Base44 documentation.
+      placeholder: https://docs.base44.com/...
+
+  - type: input
+    id: verified
+    attributes:
+      label: Date verified
+      placeholder: YYYY-MM-DD
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed secrets and private account information.
+          required: true

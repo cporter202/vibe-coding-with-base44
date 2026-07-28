@@ -1,5 +1,11 @@
 # Testing and debugging
 
+> **Lesson 6 of 7 · 20 minutes · Essential**
+>
+> **Outcome:** role-based test scenarios and a diagnosis-first debugging loop.
+
+[← Integrations](04-integrations-workflows.md) · [Course map](README.md) · [Next: Launch →](06-launch-checklist.md)
+
 “The AI said it works” is not a test. A test has a starting state, an action, and an observable result.
 
 ## Test in layers
@@ -134,3 +140,7 @@ A feature is done when:
 - A regression test exists for any bug fixed
 
 Official references: [Testing Agent](https://docs.base44.com/documentation/managing-app-data/testing-agent), [test data](https://docs.base44.com/documentation/managing-app-data/testing-your-data), [app logs](https://docs.base44.com/Building-your-app/exploring-app-logs), and [Activity Monitor](https://docs.base44.com/developers/app-code/editor/activity-monitor).
+
+---
+
+[← Integrations](04-integrations-workflows.md) · [Course map](README.md) · [Next: Launch →](06-launch-checklist.md)

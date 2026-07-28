@@ -1,5 +1,11 @@
 # Launch checklist
 
+> **Lesson 7 of 7 · 20 minutes · Essential**
+>
+> **Outcome:** a responsibly tested release and a first-week operating plan.
+
+[← Testing](05-testing-debugging.md) · [Course map](README.md) · [Bonus: Developer Path →](07-developer-path.md)
+
 Publishing is easy. Launching responsibly means verifying that the app is useful, safe, understandable, and recoverable.
 
 ## Before you invite anyone
@@ -131,3 +137,7 @@ Return:
 ```
 
 Official references: [publishing in the quick start](https://docs.base44.com/Getting-Started/Quick-start-guide), [security scan](https://docs.base44.com/Setting-up-your-app/running-a-security-scan), [performance](https://docs.base44.com/Performance-and-SEO/App-performance), and [SEO/search visibility](https://docs.base44.com/Performance-and-SEO/SEO-and-search-visibility).
+
+---
+
+[← Testing](05-testing-debugging.md) · [Course map](README.md) · [Bonus: Developer Path →](07-developer-path.md)

@@ -1,5 +1,11 @@
 # Prompt playbook
 
+> **Lesson 3 of 7 · 20 minutes · Beginner**
+>
+> **Outcome:** a repeatable method for requesting changes that are scoped, testable, and easier to trust.
+
+[← First App](01-build-your-first-app.md) · [Course map](README.md) · [Next: Data & Security →](03-data-auth-security.md)
+
 Good vibe coding is not about discovering a magic sentence. It is about giving the builder enough context, limiting the blast radius, and defining evidence that a change is complete.
 
 ## The six-part prompt
@@ -190,3 +196,7 @@ then wait for me to choose what to implement.
 For copy-ready examples, visit the [prompt library](../prompts/README.md).
 
 Official reference: [Writing effective prompts in Base44](https://docs.base44.com/Getting-Started/Prompt-guide).
+
+---
+
+[← First App](01-build-your-first-app.md) · [Course map](README.md) · [Next: Data & Security →](03-data-auth-security.md)

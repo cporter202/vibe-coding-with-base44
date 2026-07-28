@@ -1,116 +1,139 @@
 # Vibe Coding with Base44
 
-> A practical, beginner-friendly guide to turning an idea into a working full-stack app with Base44—using plain-English prompts instead of starting with code.
->
-> **Affiliate disclosure:** Some links in this guide are affiliate links. If you create or upgrade a Base44 account through them, I may earn a commission at no extra cost to you. That support helps keep this guide free and updated. Recommendations are based on usefulness, not commission.
+![Vibe Coding with Base44 — From idea to app, no coding experience required](assets/vibe-coding-with-base44-hero.png)
 
-[Start building with Base44](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base) · [Read the 15-minute quick start](docs/00-start-here.md) · [Copy proven prompts](docs/02-prompt-playbook.md)
+**The practical, zero-to-launch Base44 course I wish existed when I started.** Learn by building a real app—not by reading a feature list.
 
----
+> **Affiliate disclosure:** The Base44 links marked “Start free” are affiliate links. If you create or upgrade an account through one, I may earn a commission at no extra cost to you. The guide is independently written, and you can always visit [Base44 directly](https://base44.com/). [Full disclosure](AFFILIATE-DISCLOSURE.md).
 
-## What you will learn
+[![Level: Beginner](https://img.shields.io/badge/LEVEL-BEGINNER-7C5CFC?style=for-the-badge)](docs/00-start-here.md)
+[![Start: Free](https://img.shields.io/badge/START-FREE-00BFA6?style=for-the-badge)](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base)
+[![Docs Quality](https://img.shields.io/github/actions/workflow/status/cporter202/vibe-coding-with-base44/docs-quality.yml?branch=main&style=for-the-badge&label=DOCS)](https://github.com/cporter202/vibe-coding-with-base44/actions/workflows/docs-quality.yml)
+[![License: MIT](https://img.shields.io/badge/LICENSE-MIT-1F6FEB?style=for-the-badge)](LICENSE)
 
-This is not a list of features or a collection of vague prompt tips. It is a start-to-launch path for people who have an idea but do not yet think of themselves as developers.
+## Start in 60 seconds
 
-- Turn a rough idea into a buildable first version
-- Write prompts that produce predictable changes
-- Model data without needing database jargon
-- Add login, roles, and safe data permissions
-- Connect external tools and automate workflows
-- Test the important user journeys before publishing
-- Diagnose common problems without starting over
-- Move into GitHub and local development when you are ready
+1. Open the [15-minute Start Here lesson](docs/00-start-here.md).
+2. Write one sentence describing your user and their problem.
+3. Paste the provided planning prompt into Base44's **Plan mode**.
+4. Follow the [lead-tracker build-along](docs/01-build-your-first-app.md).
+5. Use the [launch checklist](docs/06-launch-checklist.md) before sharing your app.
 
-## Pick your path
+**No code, database experience, or technical vocabulary required.**
 
-| If you want to...                            | Start here                                                      |
-| -------------------------------------------- | --------------------------------------------------------------- |
-| Build something today                        | [Start here](docs/00-start-here.md)                             |
-| Follow one complete project                  | [Build your first app](docs/01-build-your-first-app.md)         |
-| Improve weak or inconsistent results         | [Prompt playbook](docs/02-prompt-playbook.md)                   |
-| Understand tables, login, roles, and privacy | [Data, auth, and security](docs/03-data-auth-security.md)       |
-| Add email, AI, APIs, and automations         | [Integrations and workflows](docs/04-integrations-workflows.md) |
-| Find and fix bugs                            | [Testing and debugging](docs/05-testing-debugging.md)           |
-| Publish a real product                       | [Launch checklist](docs/06-launch-checklist.md)                 |
-| Use code, GitHub, the SDK, or CLI            | [Developer path](docs/07-developer-path.md)                     |
-| Grab a ready-to-paste prompt                 | [Prompt library](prompts/README.md)                             |
-| Fix a specific problem                       | [Troubleshooting](docs/troubleshooting.md)                      |
+[![Start building free with Base44](https://img.shields.io/badge/START_BUILDING_WITH_BASE44-→-FF6B6B?style=for-the-badge)](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base)
 
-## Base44 in one minute
+## Choose your path
 
-Base44 is an AI app builder. You describe the product in natural language, and it can create the interface, data tables, authentication, logic, and hosted app. You keep refining it through chat, visual edits, and—when needed—code.
+| You are...               | Recommended path                                                                                                                                                                                                                                         |      Time |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------: |
+| Completely new           | [Start Here](docs/00-start-here.md) → [First App](docs/01-build-your-first-app.md) → [Prompts](docs/02-prompt-playbook.md) → [Security](docs/03-data-auth-security.md) → [Testing](docs/05-testing-debugging.md) → [Launch](docs/06-launch-checklist.md) | 2–3 hours |
+| Already building         | [Prompt Playbook](docs/02-prompt-playbook.md) → [Testing](docs/05-testing-debugging.md) → [Troubleshooting](docs/troubleshooting.md)                                                                                                                     | 45–60 min |
+| Adding advanced features | [Security](docs/03-data-auth-security.md) → [Integrations](docs/04-integrations-workflows.md) → [Developer Path](docs/07-developer-path.md)                                                                                                              | 60–90 min |
+| Fixing one problem       | Go directly to [Troubleshooting](docs/troubleshooting.md) or the [Prompt Library](prompts/README.md)                                                                                                                                                     |  5–15 min |
 
-The most useful mental model is a loop:
+[View the complete course map →](docs/README.md)
+
+## What you will build
+
+The guided project is a polished lead tracker for a small service business:
 
 ```mermaid
 flowchart LR
-    A["Plan one useful outcome"] --> B["Build the smallest version"]
-    B --> C["Test like a real user"]
-    C --> D["Fix one issue at a time"]
-    D --> E["Check permissions and security"]
-    E --> F["Publish and observe"]
-    F --> A
+    A["Visitor opens public page"] --> B["Submits an inquiry"]
+    B --> C["Lead is stored safely"]
+    C --> D["Admin reviews the lead"]
+    D --> E["Status and follow-up updated"]
+    E --> F["App tested and published"]
 ```
 
-You are still the product owner. The AI can implement quickly, but you decide who the app is for, what data it may expose, what “working” means, and when it is safe to ship.
+Along the way, you learn the same patterns used in client portals, booking tools, internal dashboards, directories, support systems, and lightweight SaaS products.
 
-## The beginner workflow that works
+## The complete guide
 
-1. **Choose one user and one painful job.** “A tool for everyone” is not a useful starting point.
-2. **Use Plan mode before the first build.** Confirm the audience, core flow, tables, roles, and visual direction.
-3. **Build the happy path first.** Make one complete journey work before adding extra pages.
-4. **Refine in small prompts.** One outcome per prompt makes changes easier to review and revert.
-5. **Use Discuss mode for decisions.** Explore architecture or UX without changing the app.
-6. **Use Edit mode for visual polish.** Manual visual edits do not consume message credits.
-7. **Test permissions as different users.** A polished app that leaks another user's data is not ready.
-8. **Run tests and the security scan.** Then publish to a small group before promoting widely.
+|     # | Lesson                                                        | You will finish with                              |      Time |
+| ----: | ------------------------------------------------------------- | ------------------------------------------------- | --------: |
+|     1 | [Start Here](docs/00-start-here.md)                           | A clear, buildable version-one plan               |    15 min |
+|     2 | [Build Your First App](docs/01-build-your-first-app.md)       | A working public form and private admin dashboard | 45–60 min |
+|     3 | [Prompt Playbook](docs/02-prompt-playbook.md)                 | A repeatable system for precise changes           |    20 min |
+|     4 | [Data, Auth & Security](docs/03-data-auth-security.md)        | A safe data model and permission matrix           |    25 min |
+|     5 | [Integrations & Workflows](docs/04-integrations-workflows.md) | A plan for email, APIs, automations, and payments |    20 min |
+|     6 | [Testing & Debugging](docs/05-testing-debugging.md)           | Role-based tests and a reliable debugging loop    |    20 min |
+|     7 | [Launch Checklist](docs/06-launch-checklist.md)               | A responsibly tested release                      |    20 min |
+| Bonus | [Developer Path](docs/07-developer-path.md)                   | A map for GitHub, local code, SDK, and CLI        |    20 min |
 
-## What to build first
+Also included:
 
-Good first projects have one main workflow and a small data model:
+- [20+ production-quality prompts](prompts/README.md)
+- [Fast troubleshooting guide](docs/troubleshooting.md)
+- [Curated official resources](docs/resources.md)
+- [Printable progress checklist](docs/course-checklist.md)
 
-- Personal habit tracker
-- Client inquiry manager
-- Content calendar
-- Simple booking request app
-- Inventory or equipment checkout tool
-- Customer portal with status updates
-- Niche directory with an admin dashboard
+## Why this guide is different
 
-Avoid starting with a marketplace, social network, regulated-health product, bank-like product, or multi-tenant SaaS with complex billing. Those are possible later, but they multiply permissions, failure modes, and legal responsibilities.
+- **Outcome-first:** every chapter tells you what you will accomplish and how long it should take.
+- **Beginner-safe:** technical terms are translated into plain language.
+- **Copy-ready:** prompts include scope, permissions, failure states, and acceptance criteria.
+- **Security-aware:** authentication is never confused with authorization.
+- **Honest about limits:** plan requirements, beta features, and platform constraints are called out.
+- **Maintained:** automated Markdown and link checks help catch quality regressions.
+- **Independent:** commercial links are disclosed clearly and official documentation is linked for changing facts.
+
+## The prompt pattern you will use
+
+```text
+On [PAGE], when [USER] does [ACTION], change [CURRENT BEHAVIOR] so that
+[EXPECTED BEHAVIOR].
+
+Keep [THINGS THAT MUST NOT CHANGE] unchanged.
+
+Done means:
+- [OBSERVABLE RESULT]
+- [IMPORTANT FAILURE OR EDGE CASE]
+- [WHAT MUST NEVER HAPPEN]
+```
+
+That small structure is the difference between “make it better” and a change you can review, test, and trust.
+
+## Base44 in plain English
+
+Base44 is an AI app builder. You describe what you want, and it can create the interface, data tables, authentication, logic, and hosted app. The productive workflow is:
+
+The working loop is: **Plan → Build small → Review → Test → Secure → Publish → Learn.**
+
+You remain the product owner. The AI can build quickly, but you decide who the app is for, what data it may expose, and what evidence proves it works.
 
 ## Current plan notes
 
-Features and limits change, so check [Base44's official billing documentation](https://docs.base44.com/Account-and-billing/Billing-and-plans) before paying. As of **July 27, 2026**:
+Plans change, so verify details in [Base44's official billing documentation](https://docs.base44.com/Account-and-billing/Billing-and-plans) before purchasing. As of **July 27, 2026**:
 
-- The Free plan includes core building features, authentication, database functionality, analytics, up to 5 apps, up to 25 monthly message credits (currently capped at 5 per day), and 100 monthly integration credits.
+- Free includes core building, authentication, database functionality, analytics, up to 5 apps, up to 25 monthly message credits with a current daily cap, and 100 monthly integration credits.
 - Starter adds unlimited apps and in-app code edits.
 - Builder is the first listed plan with backend functions, custom domains, GitHub integration, and manual model selection.
 - New private apps require a paid plan.
+- Plan and workspace changes are rolling out, so some accounts may differ.
 
-Base44 is rolling out plan and workspace changes, so some accounts may show different limits or behavior. Start free, validate that Base44 fits your project, and upgrade when a required capability—not impatience—justifies it.
+Start free. Upgrade when a required capability—not impatience—justifies it.
 
-## A note on affiliate links
+## Safety before speed
 
-The primary Base44 link in this repository is an affiliate link. You can always visit [Base44 directly](https://base44.com/) instead. Both routes should lead to the same product; using the affiliate link is an optional way to support this guide.
+Do not use a first project to store highly sensitive medical, financial, identity, children's, legal, or employment data. Never publish real API keys. Test every private workflow as two different users and an admin. Run Base44's security scan before launch.
 
-Read the full [affiliate disclosure](AFFILIATE-DISCLOSURE.md).
+Read [Data, Auth & Security](docs/03-data-auth-security.md) before collecting real user information.
 
-## Accuracy and scope
+## Contributing and support
 
-This is an independent community guide, not official Base44 documentation and not affiliated with or endorsed by Base44 or Wix. Interfaces, plan limits, model names, and beta features can change. Each chapter links to official documentation so you can verify time-sensitive details.
+- Found outdated information? [Report a documentation issue](https://github.com/cporter202/vibe-coding-with-base44/issues/new?template=documentation.yml).
+- Have an improvement? Read [CONTRIBUTING.md](CONTRIBUTING.md).
+- Need help with this guide? See [SUPPORT.md](SUPPORT.md).
+- Need private account, billing, or platform help? Use [Base44 Support](https://docs.base44.com/Community-and-support/Contacting-support).
 
-Found something stale? [Open an issue](https://github.com/cporter202/vibe-coding-with-base44/issues) or read [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Official references
-
-- [Base44 documentation](https://docs.base44.com/)
-- [Quick-start guide](https://docs.base44.com/Getting-Started/Quick-start-guide)
-- [Prompt guide](https://docs.base44.com/Getting-Started/Prompt-guide)
-- [Security overview](https://docs.base44.com/Setting-up-your-app/security-overview)
-- [Billing and plans](https://docs.base44.com/Account-and-billing/Billing-and-plans)
-- [Base44 developer platform](https://docs.base44.com/developers/home)
+This is an independent community project—not official Base44 documentation and not affiliated with or endorsed by Base44 or Wix.
 
 ---
 
-If this guide helps you build your first useful app, [try Base44 here](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base) and tell the community what you made.
+**Ready to turn your idea into something real?**
+
+[![Start free with Base44](https://img.shields.io/badge/START_FREE_WITH_BASE44-→-FF6B6B?style=for-the-badge)](https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base)
+
+Then open [Start Here](docs/00-start-here.md) and build the smallest useful version first.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Base44 documentation
+    url: https://docs.base44.com/
+    about: Verify current Base44 features, plans, and product instructions.
+  - name: Base44 support
+    url: https://docs.base44.com/Community-and-support/Contacting-support
+    about: Get help with private account, billing, or platform-specific problems.

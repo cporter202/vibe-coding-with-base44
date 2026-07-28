@@ -1,5 +1,11 @@
 # Data, authentication, and security
 
+> **Lesson 4 of 7 · 25 minutes · Essential**
+>
+> **Outcome:** a clear data model, permission matrix, and pre-publish security checklist.
+
+[← Prompt Playbook](02-prompt-playbook.md) · [Course map](README.md) · [Next: Integrations →](04-integrations-workflows.md)
+
 AI can create a database and login flow quickly. That does not remove your responsibility to decide who should see each record.
 
 This chapter is intentionally conservative. If your app handles medical, financial, legal, employment, children's, identity, or other highly sensitive data, get qualified security and legal review before collecting real information.
@@ -166,3 +172,7 @@ Deleted records can currently be restored from Recently Deleted for 30 days. Do 
 Base44's official security overview says it encrypts data at rest and in transit and provides app-level security tooling. It also says app creators remain responsible for app security settings. The same page currently notes that auth tokens are stored in browser localStorage and that per-app HTTP security headers and CORS rules are not configurable. Review those constraints if your threat model is strict.
 
 Official references: [security overview](https://docs.base44.com/Setting-up-your-app/security-overview), [data permissions](https://docs.base44.com/Setting-up-your-app/Managing-security-settings), and [managing data](https://docs.base44.com/Building-your-app/Managing-your-app-data).
+
+---
+
+[← Prompt Playbook](02-prompt-playbook.md) · [Course map](README.md) · [Next: Integrations →](04-integrations-workflows.md)

@@ -1,5 +1,11 @@
 # Build your first app: a lead tracker
 
+> **Lesson 2 of 7 · 45–60 minutes · Beginner**
+>
+> **Outcome:** a working public inquiry form and private lead-management dashboard.
+
+[← Start Here](00-start-here.md) · [Course map](README.md) · [Next: Prompt Playbook →](02-prompt-playbook.md)
+
 This build-along creates a small but real product for a solo service business:
 
 - A public page where potential customers submit an inquiry
@@ -200,3 +206,7 @@ Add only after version one is stable:
 Each addition changes the data, permissions, cost, or failure surface. Add one, test it, then continue.
 
 Official references: [managing data](https://docs.base44.com/Building-your-app/Managing-your-app-data), [data permissions](https://docs.base44.com/Setting-up-your-app/Managing-security-settings), and [testing flows](https://docs.base44.com/documentation/managing-app-data/testing-agent).
+
+---
+
+[← Start Here](00-start-here.md) · [Course map](README.md) · [Next: Prompt Playbook →](02-prompt-playbook.md)

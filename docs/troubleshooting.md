@@ -1,5 +1,11 @@
 # Troubleshooting
 
+> **Reference guide · Find your symptom and work top to bottom**
+>
+> **Rule:** diagnose with evidence, make one small fix, and rerun the original test.
+
+[← Course map](README.md) · [Prompt Library](../prompts/README.md) · [Base44 official troubleshooting](https://docs.base44.com/Community-and-support/Troubleshooting)
+
 Start with the symptom. Make one diagnosis-driven change, then retest the original flow.
 
 ## The first build is too generic
@@ -122,3 +128,7 @@ Collect a safe reproduction:
 - Last relevant change
 
 Then use Base44 support/community links from the [official documentation](https://docs.base44.com/) or open a guide issue if the problem is with this repository.
+
+---
+
+[← Course map](README.md) · [Prompt Library](../prompts/README.md) · [Get guide support](../SUPPORT.md)
