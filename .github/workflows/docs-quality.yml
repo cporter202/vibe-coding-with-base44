@@ -34,7 +34,15 @@ jobs:
         with:
           args: >-
             --no-progress
-            --max-redirects 10
             --exclude 'https://www.ftc.gov/.*'
+            --exclude 'https://base44.pxf.io/.*'
             './**/*.md'
           fail: true
+
+      - name: Check affiliate redirect
+        shell: bash
+        run: |
+          status=$(curl --location --silent --show-error \
+            --output /dev/null --write-out "%{http_code}" --max-redirs 10 \
+            "https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&trafcat=base")
+          test "$status" -ge 200 -a "$status" -lt 400
