@@ -6,8 +6,6 @@
 
 <p align="center"><strong>The practical, zero-to-launch Base44 course I wish existed when I started.</strong><br>Learn by building a real app—not by reading a feature list.</p>
 
-> **Affiliate disclosure:** The Base44 links marked “Start free” are affiliate links. If you create or upgrade an account through one, I may earn a commission at no extra cost to you. The guide is independently written, and you can always visit [Base44 directly](https://base44.com/). [Full disclosure](AFFILIATE-DISCLOSURE.md).
-
 <p align="center">
   <a href="docs/00-start-here.md"><img src="https://img.shields.io/badge/LEVEL-BEGINNER-7C5CFC?style=for-the-badge" alt="Level: Beginner"></a>
   <a href="https://base44.pxf.io/c/6763812/2049275/25619?subId1=github&amp;trafcat=base"><img src="https://img.shields.io/badge/START-FREE-00BFA6?style=for-the-badge" alt="Start free"></a>
